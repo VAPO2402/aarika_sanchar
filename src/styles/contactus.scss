@@ -72,6 +72,10 @@
                 font-family: $text2;
                 font-size: 0.8rem;
             }
+
+            >.submit:active{
+                background: $third;
+            }
         }
     }
 }

@@ -49,9 +49,48 @@
             inset 0 0 0px 0 transparent;
         }
 
-        >.routeTables{
-            margin-top: 3rem;
-            margin-bottom: 5rem;
+        >.bulkSmsRoute{
+            margin: 4rem 1.8rem;
+        }
+    }
+
+    >.transactionalSms{
+
+        >h1{
+            font-size: 2.4rem;
+            margin-bottom: 1rem;
+        }
+            
+        >button{
+            border-radius: 1.5rem;
+            margin-right: 0.6rem;
+            padding: 0.4rem;
+            margin-left: 0.6rem;
+        }
+
+        >button:hover{
+            box-shadow: 0 0 0px 0 $third,
+            inset -100px 10px 100px 20px transparent,
+            0 0 6px 0px $third,
+            inset 0 0 0px 0 transparent;
+            transition: ease-in-out;
+            transition-duration: 0.4s;
+        }
+
+        >button:active{
+            background: $third;
+
+        }
+
+        >button:focus{
+            box-shadow: 0 0 0px 0 black,
+            inset -100px 10px 100px 20px transparent,
+            0 0 12px 1px black,
+            inset 0 0 0px 0 transparent;
+        }
+
+        >.bulkSmsRoute{
+            margin: 4rem 1.8rem;
         }
     }
 }

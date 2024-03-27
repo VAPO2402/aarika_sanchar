@@ -1,8 +1,30 @@
-import React from 'react'
+import React, { useRef } from 'react'
+import emailjs from '@emailjs/browser';
 
 import '../styles/footer.scss'
 
 const Footer = () => {
+
+    const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_sznr43k', 'template_8iidebq', form.current, {
+        publicKey: 'MkMcdsR0dQJY-SeYd',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+          e.target.reset();
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
+
   return (
     <section className="footer">
         <div className="footerMain">
@@ -17,12 +39,12 @@ const Footer = () => {
             </div>
             <div className="reachOut">
                 <h1>CONTACT US</h1>
-                <form>
-                    <input type="text" placeholder='Full Name*' />
-                    <input type="number" placeholder='Mobile Number*' />
-                    <input type="text" placeholder='Email ID*' />
-                    <textarea placeholder='Message' cols="29" rows="5"></textarea>
-                    <input type="submit" value="Submit" />
+                <form ref={form} onSubmit={sendEmail}>
+                    <input type="text" placeholder='Full Name*' name='userName' />
+                    <input type="number" placeholder='Mobile Number*' name='userNumber' />
+                    <input type="email" placeholder='Email ID*' name='userEmail' />
+                    <textarea placeholder='Message' cols="32" rows="7" name='message'></textarea>
+                    <input type="submit" value="Send" />
                 </form>
             </div>
         </div>

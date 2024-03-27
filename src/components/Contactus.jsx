@@ -1,8 +1,30 @@
-import React from 'react'
+import React, { useRef } from 'react'
+import emailjs from '@emailjs/browser';
 
 import "../styles/contactus.scss"
 
 const Contactus = () => {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_sznr43k', 'template_8iidebq', form.current, {
+        publicKey: 'MkMcdsR0dQJY-SeYd',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+          e.target.reset();
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
+
   return (
     <section id='contactUs'>
       <div className="info">
@@ -17,12 +39,12 @@ const Contactus = () => {
           </ul>
       </div>
       <div className="formSubmit">
-          <form action="https://public.herotofu.com/v1/4aa4df60-ebae-11ee-a139-63688650e2a2" method="post" accept-charset="UTF-8">
-          <input type="text" placeholder='Full Name*' />
-          <input type="number" placeholder='Mobile Number*' />
-          <input type="text" placeholder='Email ID*' />
-          <textarea placeholder='Message' cols="32" rows="7"></textarea>
-          <input type="submit" value="Submit" />
+          <form ref={form} onSubmit={sendEmail}>
+            <input type="text" placeholder='Full Name*' name='userName' />
+            <input type="number" placeholder='Mobile Number*' name='userNumber' />
+            <input type="email" placeholder='Email ID*' name='userEmail' />
+            <textarea placeholder='Message' cols="32" rows="7" name='message'></textarea>
+            <input type="submit" value="Send" className='submit' />
           </form>
       </div>
     </section>
