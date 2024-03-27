@@ -1,0 +1,65 @@
+@import "../styles/style.scss";
+
+.footer{
+    background: black;
+    color: $second;
+    font-family: $text2;
+    display: grid;
+
+    >.footerMain{
+        display: flex;
+        justify-content: space-around;
+        padding: 5rem 10rem 5rem 10rem;
+
+        >.address{
+            margin: 5rem 3rem 0rem;
+
+            >h3{
+                padding-bottom: 1rem;
+            }
+        }
+
+        >.contactDetails{
+            margin-top: 5rem;
+
+            >h1{
+                padding-bottom: 1rem;
+            }
+        }
+
+        >.reachOut{
+            
+            >h1{
+                padding-bottom: 1rem;
+            }
+
+            >form{
+                background: transparent;  
+                display: grid;
+
+                >input{
+                    border-radius: 0.5rem;
+                    padding: 0.5rem;
+                    font-size: 0.87rem;
+                    outline: none;
+                    margin-bottom: 0.5rem;
+                }
+
+                >textarea{
+                    border-radius: 0.5rem;
+                    padding: 0.5rem;
+                    font-size: 1rem;
+                    outline: none;
+                    margin-bottom: 0.5rem;
+                }
+            }
+        }
+    }
+
+    >.footerCopyright{
+        background: $second;
+        color: $third;
+        text-align: center;
+        padding: 2rem;
+    }
+}

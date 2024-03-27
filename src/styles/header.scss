@@ -1,0 +1,36 @@
+@import "../styles/style.scss";
+
+nav{
+    display: flex;
+    background: $first;
+    padding: 1.4rem;
+    position: fixed;
+    width: 100%;
+
+    >.logo{
+        width: 40%;
+        background: transparent;
+        display: flex;
+        justify-content: center;
+
+        >img{
+            width: 10rem;
+            height: 2rem;
+        }
+    }
+
+    >.menu{
+        width: 55%;
+        display: flex;
+        justify-content: space-around;
+        
+        padding-top: 0.3rem;
+        background: transparent;
+
+        >.menuItem{
+            font-family: $text2;
+            font-weight: 500;
+            color:$second;
+        }
+    }
+}

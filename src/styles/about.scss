@@ -1,0 +1,112 @@
+@import "../styles/style.scss";
+
+.about{
+    font-family: $text2;
+    background: $second;
+    text-align: center;
+    padding-top: 5rem;
+    margin-top: -2rem;
+
+    >h1{
+        font-size: 2rem;
+        color: $third;
+        padding-bottom: 1.5rem;
+    }
+
+    >p{
+        font-size: 1rem;
+        color: $fourth;
+    }
+    
+    >.aboutCards{
+        display: grid;
+        padding: 3rem 7rem 3rem 7rem;
+
+        >.cardsAbove{
+            display: flex;
+            margin-bottom: 3rem;
+
+            >.cardInfo{
+                display: grid;
+                border: 1px solid black;
+                margin: 0 1.5rem 0 1.5rem;
+                padding: 2rem;
+                align-items: center;
+                border-radius: 0.6rem;
+                
+
+                >.image{
+                    margin-bottom: 0.6rem;
+                    
+                    >img{
+                        width: 70px;
+                        height: 66px;
+                    }
+                }
+
+                >span{
+                    font-size: 1.2rem;
+                    margin-bottom: 0.6rem;
+                }
+
+                >p{
+                    font-size: 1.1rem;
+                    color: $third;
+                }
+            }
+
+            >.cardInfo:hover{
+                box-shadow: 0 0 0px 0 $third,
+                inset -100px 10px 100px 20px transparent,
+                0 0 6px 0px $third,
+                inset 0 0 0px 0 transparent;
+                transition: ease-in-out;
+                transition-duration: 0.4s;
+            }
+        }
+
+        >.cardsBelow{
+            display: flex;
+            margin-bottom: 3rem;
+            padding: 0rem 8rem 0rem 8rem;
+
+            >.cardInfo{
+                display: grid;
+                border: 1px solid black;
+                margin: 0 2rem 0 2rem;
+                padding: 2rem;
+                align-items: center;
+                border-radius: 0.6rem;
+                
+
+                >.image{
+                    margin-bottom: 0.6rem;
+                    
+                    >img{
+                        width: 70px;
+                        height: 66px;
+                    }
+                }
+
+                >span{
+                    font-size: 1.2rem;
+                    margin-bottom: 0.6rem;
+                }
+
+                >p{
+                    font-size: 1.1rem;
+                    color: $third;
+                }
+            }
+
+            >.cardInfo:hover{
+                box-shadow: 0 0 0px 0 $third,
+                inset -100px 10px 100px 20px transparent,
+                0 0 6px 0px $third,
+                inset 0 0 0px 0 transparent;
+                transition: ease-in-out;
+                transition-duration: 0.4s;
+            }
+        }
+    }
+}
