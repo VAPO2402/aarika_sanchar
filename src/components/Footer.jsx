@@ -29,7 +29,7 @@ const Footer = () => {
     <section className="footer">
         <div className="footerMain">
             <div className="address">
-                <h3>WHERE TO FIND US <br /> <br /> Address:</h3>
+                <h3>WHERE TO FIND US <br /><span> <br /></span> Address:</h3>
                 <p>AARIKA SANCHAR SERVICES, Site No. 04, <br /> Khatha No. 233/1, <br /> Hulimangala Village, <br /> Hulimangala Panchayath, <br /> Jigni Hobli, Anekal Taluk, <br /> Bangalore Urban District Karnataka - 560105</p>
             </div>
             <div className="contactDetails">
