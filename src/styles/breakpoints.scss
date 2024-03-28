@@ -8,29 +8,11 @@ $breakpoints: (
     "contactbp2": "max-width: 565px",
     "contactbp3": "max-width: 455px",
     "contactbp4": "max-width: 330px",
+    "bulksmsbp1": "max-width: 955px",
+    "aboutbp1": "max-width: 1345px",
+    "aboutbp2": "max-width: 865px",
+    "aboutbp3": "max-width: 575px",
+    "featuresbp1": "max-width: 1345px",
+    "featuresbp2": "max-width: 965px",
+    "featuresbp3": "max-width: 535px",
 );
-
-
-// @mixin breakpoint($user-value){
-//     $my-map: map-get($breakpoints, $user-value);
-//     @if $my-map {
-//         @media(#{$my-map}){
-//             @content;
-//         }  
-//     }
-//     @else{
-//         @error "OOps, seems like the breakpoint #{$user-value} isn;t defined yet";
-//     }
-// };
-
-// body{
-//     @include breakpoint(bp1){
-
-//     }
-//     @include breakpoint(bp1){
-
-//     }
-//     @include breakpoint(bp1){
-
-//     }
-// }

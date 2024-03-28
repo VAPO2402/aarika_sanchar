@@ -1,4 +1,5 @@
 @import "../styles/style.scss";
+@import "../styles/breakpoints.scss";
 
 .features{
     text-align: left;
@@ -14,7 +15,7 @@
 
     >.featuresAbove{
         display: flex;
-        padding: 0rem 9rem 2rem 9rem;
+        padding: 0rem 9rem 2rem;
 
 
         >.featuresInfo{
@@ -42,7 +43,7 @@
             }
 
             >p{
-                padding: 0rem 1.6rem 0rem 1.6rem;
+                padding: 0rem 1.6rem;
             }
         }
 
@@ -59,8 +60,6 @@
     >.featuresBelow{
         display: flex;
         padding: 1.5rem 9rem 6rem 9rem;
-
-
 
         >.featuresInfo{
             display: grid;
@@ -98,6 +97,168 @@
             inset 0 0 0px 0 transparent;
             transition: ease-in-out;
             transition-duration: 0.4s;
+        }
+    }
+}
+
+@mixin breakpoint($user-value){
+    $my-map: map-get($breakpoints, $user-value);
+    @if $my-map {
+        @media(#{$my-map}){
+            @content;
+        }  
+    }
+};
+
+@include breakpoint(featuresbp1){
+    .features{
+
+        >.featuresAbove{
+            padding: 0rem 3rem 4rem;
+
+            >.featuresInfo{
+                margin-right: 2rem;
+                padding: 2rem;
+            }
+        }
+
+        >.featuresBelow{
+            padding: 0rem 3rem 4rem;
+
+            >.featuresInfo{
+                margin-right: 2rem;
+                padding: 2rem;
+            }
+        }
+    }
+}
+
+@include breakpoint(featuresbp2){
+    .features{
+
+        >h1{
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+        }
+
+        >.featuresAbove{
+            padding: 0rem 1.5rem 3rem;
+
+            >.featuresInfo{
+                margin-right: 0rem;
+                padding: 0.7rem;
+
+                >h1{
+                    font-size: 1.1rem;
+                    margin-bottom: 0.4rem;
+    
+                    >img{
+                        margin-left: -0.3rem;
+                        width: 2rem;
+                        height: 2rem;
+                    }
+
+                    >span{
+                        padding-top: 0.6rem;
+                    }
+                }
+
+                >p{
+                    padding: 0rem 1rem;
+                    font-size: 0.8rem;
+                }
+            }
+        }
+
+        >.featuresBelow{
+            padding: 0rem 1.5rem 3rem;
+
+            >.featuresInfo{
+                margin-right: 0rem;
+                padding: 0.7rem;
+
+                >h1{
+                    font-size: 1.1rem;
+                    margin-bottom: 0.4rem;
+    
+                    >img{
+                        margin-left: -0.3rem;
+                        width: 2rem;
+                        height: 2rem;
+                    }
+
+                    >span{
+                        padding-top: 0.6rem;
+                    }
+                }
+
+                >p{
+                    padding: 0rem 1rem;
+                    font-size: 0.8rem;
+                }
+            }
+        }
+    }
+}
+
+@include breakpoint(featuresbp3){
+    .features{
+
+        >h1{
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        >.featuresAbove{
+            padding: 0rem 1rem 2rem;
+
+            >.featuresInfo{
+                padding: 0.5rem;
+
+                >h1{
+                    font-size: 0.95rem;
+                    margin-bottom: 0.2rem;
+
+                    >img{
+                        margin-left: 0rem;
+                    }
+
+                    >span{
+                        padding-top: 0rem;
+                    }
+                }
+
+                >p{
+                    padding: 0rem 0.5rem;
+                    font-size: 0.6rem;
+                }
+            }
+        }
+
+        >.featuresBelow{
+            padding: 0rem 1rem 2rem;
+
+            >.featuresInfo{
+                padding: 0.5rem;
+
+                >h1{
+                    font-size: 0.95rem;
+                    margin-bottom: 0.2rem;
+
+                    >img{
+                        margin-left: 0rem;
+                    }
+
+                    >span{
+                        padding-top: 0rem;
+                    }
+                }
+
+                >p{
+                    padding: 0rem 0.5rem;
+                    font-size: 0.6rem;
+                }
+            }
         }
     }
 }

@@ -1,4 +1,5 @@
 @import "../styles/style.scss";
+@import "../styles/breakpoints.scss";
 
 .bulkSms{
     text-align: center;
@@ -62,6 +63,10 @@
             >.normalRouteTable{
                 display: flex;
                 justify-content: space-around;
+
+                >.table{
+                    overflow-x: hidden !important;
+                }
             }
         }
     }
@@ -112,6 +117,76 @@
             >.normalRouteTable{
                 display: flex;
                 justify-content: space-around;
+            }
+        }
+    }
+}
+
+@mixin breakpoint($user-value){
+    $my-map: map-get($breakpoints, $user-value);
+    @if $my-map {
+        @media(#{$my-map}){
+            @content;
+        }  
+    }
+};
+
+@include breakpoint(bulksmsbp1){
+    .bulkSms{
+        
+        >h1{
+            font-size: 1.8rem;
+        }
+
+        >p{
+            font-size: 1rem;
+        }
+
+        >.promotionalSms{
+
+            >h1{
+                font-size: 2rem;
+            }
+
+            >.bulkSmsRoute{
+
+                >.apiRouteTable{
+
+                    >.table{
+                        overflow-x: visible !important;
+                    }
+                }
+
+                >.normalRouteTable{
+
+                    >.table{
+                        overflow-x: visible !important;
+                    }
+                }
+            }
+        }
+
+        >.transactionalSms{
+
+            >h1{
+                font-size: 2rem;
+            }
+
+            >.bulkSmsRoute{
+
+                >.apiRouteTable{
+
+                    >.table{
+                        overflow-x: visible !important;
+                    }
+                }
+
+                >.normalRouteTable{
+
+                    >.table{
+                        overflow-x: visible !important;
+                    }
+                }
             }
         }
     }
