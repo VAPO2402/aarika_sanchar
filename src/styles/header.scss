@@ -1,4 +1,5 @@
 @import "../styles/style.scss";
+@import "../styles/breakpoints.scss";
 
 nav{
     display: flex;
@@ -9,7 +10,6 @@ nav{
 
     >.logo{
         width: 40%;
-        background: transparent;
         display: flex;
         justify-content: center;
 
@@ -22,18 +22,154 @@ nav{
         }
     }
 
-    >.menu{
+    >.navLink{
         width: 55%;
         display: flex;
         justify-content: space-around;
-        
         padding-top: 0.3rem;
         background: transparent;
+        font-family: $text2;
+
+        >span{
+
+            >.menuItem{
+                font-weight: 500;
+            }
+
+            >.menuItem:hover{
+                color: $second;
+                transition: 0.5s;
+            }
+        }
 
         >.menuItem{
-            font-family: $text2;
             font-weight: 500;
-            color:$second;
+        }
+
+        >.menuItem:hover{
+            color: $second;
+            transition: 0.5s;
+        }
+    }
+}
+
+@mixin breakpoint($user-value){
+    $my-map: map-get($breakpoints, $user-value);
+    @if $my-map {
+        @media(#{$my-map}){
+            @content;
+        }  
+    }
+};
+
+@include breakpoint(headerbp1){
+    nav{
+        padding: 0.8rem;
+
+        >.logo{
+            width: 25%;
+
+            >.logoLink{
+
+                >img{
+                    width: 6rem;
+                    height: 1.5rem;
+                }
+            }
+        }
+
+        >.navLink{
+            width: 60%;
+            padding-top: 0.2rem;
+        }
+    }
+}
+
+@include breakpoint(headerbp2){
+    nav{
+        padding: 0.5rem;
+
+        >.logo{
+            width: 25%;
+
+            >.logoLink{
+
+                >img{
+                    width: 4.5rem;
+                    height: 1.4rem;
+                }
+            }
+        }
+
+        >.navLink{
+            width: 75%;
+            display: flex;
+            justify-content: space-around;
+            padding-top: 0rem;
+            
+            >.menuItem{
+                font-size: 0.8rem;
+                padding-top: 0.3rem;
+            }
+
+            >span{
+
+                >.menuItem{
+                    font-size: 0.8rem;
+                }
+            }
+
+        }
+    }
+}
+
+@include breakpoint(headerbp3){
+    nav{
+
+        >.logo{
+            width: 15%;
+
+            >.logoLink{
+                padding-top: 0.4rem;
+
+                >img{
+                    width: 3.5rem;
+                    height: 0.8rem;
+                }
+            }
+        }
+
+        >.navLink{
+            width: 85%;
+            padding-top: 0rem;
+
+            >.menuItem{
+                font-size: 0.5rem;
+            }
+
+            >span{
+                margin-top: -0.25rem;
+
+                >.menuItem{
+                    font-size: 0.55rem;
+                }
+            }
+        }
+    }
+}
+
+@include breakpoint(headerbp4){
+    nav{
+
+        >.navLink{
+
+            >.menuItem{
+                font-size: 0.4rem;
+            }
+
+            >span{
+                display: none;
+            }
         }
     }
 }

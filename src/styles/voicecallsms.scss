@@ -1,0 +1,146 @@
+@import "../styles/style.scss";
+@import "../styles/breakpoints.scss";
+
+.voiceCallSms{
+    text-align: center;
+
+    >.image{
+        padding: 16rem;
+        background: url($path3);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: $second;
+
+        >h1{
+            font-size: 5rem;
+            font-weight: 900;
+        }
+    }
+
+    >.voiceContent{
+        margin-top: 2rem;
+        font-family: $text2;
+        padding: 2rem;
+
+        >h1{
+            font-size: 2rem;
+            font-weight: 600;
+            margin: 1.5rem 0rem;
+        }
+
+        >p{
+            text-align: left;
+            padding: 1.4rem 8rem;
+            font-size: 1.1rem;
+            font-weight: 700;
+        }
+
+        >ul{
+            text-align: left;
+            padding: 1.4rem 8rem;
+            font-size: 1.1rem;
+            font-weight: 500;
+
+            >li{
+                font-style: italic;
+            }
+        }
+    }
+
+    >.voiceSms{
+        margin-top: 3rem;
+
+        >h1{
+            font-size: 2.4rem;
+            margin-bottom: 1rem;
+            font-weight: 500;
+        }
+            
+        >button{
+            border-radius: 1.5rem;
+            margin-right: 0.6rem;
+            padding: 0.4rem;
+            margin-left: 0.6rem;
+        }
+
+        >button:hover{
+            box-shadow: 0 0 0px 0 $third,
+            inset -100px 10px 100px 20px transparent,
+            0 0 6px 0px $third,
+            inset 0 0 0px 0 transparent;
+            transition: ease-in-out;
+            transition-duration: 0.4s;
+        }
+
+        >button:active{
+            background: $third;
+
+        }
+
+        >button:focus{
+            box-shadow: 0 0 0px 0 black,
+            inset -100px 10px 100px 20px transparent,
+            0 0 12px 1px black,
+            inset 0 0 0px 0 transparent;
+        }
+
+        >.bulkSmsRoute{
+            margin: 4rem 1.5rem;
+
+            >.apiRouteTable{
+                display: flex;
+                justify-content: space-around;
+            }
+
+            >.normalRouteTable{
+                display: flex;
+                justify-content: space-around;
+
+                >.table{
+                    overflow-x: visible !important;
+                }
+            }
+        }
+    }
+}
+
+@mixin breakpoint($user-value){
+    $my-map: map-get($breakpoints, $user-value);
+    @if $my-map {
+        @media(#{$my-map}){
+            @content;
+        }  
+    }
+};
+
+@include breakpoint(voicebp){
+    .voiceCallSms{
+
+        >.image{
+            padding: 12rem 1rem 6rem;
+
+            >h1{
+                font-size: 3rem;
+                font-weight: 800;
+            }
+        }
+
+        >.voiceContent{
+            margin-top: 1rem;
+            padding: 1rem;
+
+            >h1{
+                font-size: 1.6rem;
+                margin: 1rem 0rem;
+            }
+
+            >p{
+                padding: 1rem 2rem;
+            }
+
+            >ul{
+                padding: 0.2rem 4rem;
+            }
+        }
+    }
+}
