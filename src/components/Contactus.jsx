@@ -26,7 +26,7 @@ const Contactus = () => {
   };
 
   return (
-    <section id='contactUs'>
+    <section id='contactUs' >
       <div className="info">
           <h1>India's #1</h1>
           <h2>SMS Marketing and Alerts <br /> Platform</h2>
@@ -34,12 +34,15 @@ const Contactus = () => {
               <li>Easily send smarter bulk SMS</li>
               <li>100% delivery report</li>
               <li>Easy to use Bulk SMS Portal</li>
-              <li>Genuine DLR Reports</li>
-              <li>Instant Delivery</li>
+              <span>
+                <li>Genuine DLR Reports</li>
+                <li>Instant Delivery</li>
+              </span>
           </ul>
       </div>
       <div className="formSubmit">
           <form ref={form} onSubmit={sendEmail}>
+            <h1>Request a Call Back <span>Now</span></h1>
             <input type="text" placeholder='Full Name*' name='userName' required />
             <input type="number" placeholder='Mobile Number*' name='userNumber' required />
             <input type="email" placeholder='Email ID*' name='userEmail' required />

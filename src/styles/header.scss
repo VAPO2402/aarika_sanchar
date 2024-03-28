@@ -13,9 +13,12 @@ nav{
         display: flex;
         justify-content: center;
 
-        >img{
-            width: 10rem;
-            height: 2rem;
+        >.logoLink{
+
+            >img{
+                width: 10rem;
+                height: 2rem;
+            }
         }
     }
 

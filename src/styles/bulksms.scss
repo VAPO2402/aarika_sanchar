@@ -3,10 +3,12 @@
 .bulkSms{
     text-align: center;
     padding-top: 4rem;
+    width: 100%;
 
     >h1{
         font-size: 2.2rem;
         margin-bottom: 1.6rem;
+        font-weight: 500;
     }
 
     >p{
@@ -50,7 +52,17 @@
         }
 
         >.bulkSmsRoute{
-            margin: 4rem 1.8rem;
+            margin: 4rem 1.5rem;
+
+            >.apiRouteTable{
+                display: flex;
+                justify-content: space-around;
+            }
+
+            >.normalRouteTable{
+                display: flex;
+                justify-content: space-around;
+            }
         }
     }
 
@@ -91,6 +103,16 @@
 
         >.bulkSmsRoute{
             margin: 4rem 1.8rem;
+
+            >.apiRouteTable{
+                display: flex;
+                justify-content: space-around;
+            }
+
+            >.normalRouteTable{
+                display: flex;
+                justify-content: space-around;
+            }
         }
     }
 }

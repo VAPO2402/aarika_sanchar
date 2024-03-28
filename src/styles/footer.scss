@@ -53,6 +53,12 @@
                     outline: none;
                     margin-bottom: 0.5rem;
                 }
+
+                >.submit:active{
+                    background: black;
+                    color: white;
+                    transition: ease-in-out 0.3s;
+                }
             }
         }
     }

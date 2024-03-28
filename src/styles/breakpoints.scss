@@ -1,0 +1,36 @@
+$breakpoints: (
+    "supportbp1": "max-width: 1200px",
+    "supportbp2": "max-width: 725px",
+    "supportbp3": "max-width: 500px",
+    "supportbp4": "max-width: 320px",
+    "supportbp5": "max-width: 220px",
+    "contactbp1": "max-width: 890px",
+    "contactbp2": "max-width: 565px",
+    "contactbp3": "max-width: 455px",
+    "contactbp4": "max-width: 330px",
+);
+
+
+// @mixin breakpoint($user-value){
+//     $my-map: map-get($breakpoints, $user-value);
+//     @if $my-map {
+//         @media(#{$my-map}){
+//             @content;
+//         }  
+//     }
+//     @else{
+//         @error "OOps, seems like the breakpoint #{$user-value} isn;t defined yet";
+//     }
+// };
+
+// body{
+//     @include breakpoint(bp1){
+
+//     }
+//     @include breakpoint(bp1){
+
+//     }
+//     @include breakpoint(bp1){
+
+//     }
+// }

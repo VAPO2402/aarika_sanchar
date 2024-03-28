@@ -29,22 +29,22 @@ const Footer = () => {
     <section className="footer">
         <div className="footerMain">
             <div className="address">
-                <h3>WHERE TO FIND US <br /> Address:</h3>
-                <p>#6, Bettdasanapura Main Raod,<br /> Next to Andhra Bank, <br /> Electronic City, <br />Phase-1 Bangalore 560100</p>
+                <h3>WHERE TO FIND US <br /> <br /> Address:</h3>
+                <p>AARIKA SANCHAR SERVICES, Site No. 04, <br /> Khatha No. 233/1, <br /> Hulimangala Village, <br /> Hulimangala Panchayath, <br /> Jigni Hobli, Anekal Taluk, <br /> Bangalore Urban District Karnataka - 560105</p>
             </div>
             <div className="contactDetails">
                 <h1>CONTACT US</h1>
-                <p>Email: sales@pwasms.com <br />
-                    Mobile: (+91) 77 6072 4765</p>
+                <p>Email: sales@aarikasvs.com<br />
+                    Mobile: +91 75240 11053</p>
             </div>
             <div className="reachOut">
                 <h1>CONTACT US</h1>
                 <form ref={form} onSubmit={sendEmail}>
-                    <input type="text" placeholder='Full Name*' name='userName' />
-                    <input type="number" placeholder='Mobile Number*' name='userNumber' />
-                    <input type="email" placeholder='Email ID*' name='userEmail' />
-                    <textarea placeholder='Message' cols="32" rows="7" name='message'></textarea>
-                    <input type="submit" value="Send" />
+                    <input type="text" placeholder='Full Name*' name='userName' required />
+                    <input type="number" placeholder='Mobile Number*' name='userNumber' required />
+                    <input type="email" placeholder='Email ID*' name='userEmail' required />
+                    <textarea placeholder='Message' cols="32" rows="5" name='message' required></textarea>
+                    <input type="submit" value="Send" className='submit' />
                 </form>
             </div>
         </div>
