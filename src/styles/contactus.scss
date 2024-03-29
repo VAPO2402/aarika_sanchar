@@ -42,7 +42,6 @@
         padding: 5rem;
 
         >form{
-            border: 2px black solid;
             padding: 3rem;
             background: $second;
             color: $third;
@@ -58,7 +57,6 @@
             }
 
             >input{
-                border: 2px black solid;
                 margin-bottom: 0.5rem;
                 font-size: 0.8rem;
                 outline: none;
@@ -80,7 +78,6 @@
             }
 
             >textarea{
-                border: 2px solid black;
                 border-radius: 5px;
                 margin-bottom: 0.5rem;
                 padding: 0.6rem;
@@ -211,7 +208,7 @@
 
             >h1{
                 font-size: 1.5rem;
-                margin-top: 3.5rem;
+                margin-top: 2.8rem;
             }
 
             >h2{

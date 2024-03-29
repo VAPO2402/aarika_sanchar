@@ -11,8 +11,8 @@ const Contactus = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_sznr43k', 'template_8iidebq', form.current, {
-        publicKey: 'MkMcdsR0dQJY-SeYd',
+      .sendForm('service_lzwr1wc', 'template_jclrct1', form.current, {
+        publicKey: 'Nlt_ayHQm3wLz3ggl',
       })
       .then(
         () => {

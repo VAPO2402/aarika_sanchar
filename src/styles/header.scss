@@ -40,6 +40,14 @@ nav{
                 color: $second;
                 transition: 0.5s;
             }
+
+            >.menuItem:active{
+                color: $second;
+            }
+    
+            >.menuItem:focus{
+                color: $second;
+            }
         }
 
         >.menuItem{
@@ -49,6 +57,14 @@ nav{
         >.menuItem:hover{
             color: $second;
             transition: 0.5s;
+        }
+
+        >.menuItem:active{
+            color: $second;
+        }
+
+        >.menuItem:focus{
+            color: $second;
         }
     }
 }
