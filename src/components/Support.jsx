@@ -9,29 +9,29 @@ import sharing from "../assets/sharing.png"
 const Support = () => {
   return (
     <section className='support'>
-      <h1>Backed by robust SMS gateway infrastructure <span> and <br /> fanatic customer support</span></h1>
+      <h1>Supported by resilient SMS infrastructure <span>and <br />dedicated customer service.</span></h1>
       <div className="supportInfo">
         <div className="supportContent">
           <h4>
             <img src={lock} alt="lock" />
-            Unmatched Delivery <span>Rates  & Speed</span>
+            Unmatched Delivery<span>Rates & Speed</span>
           </h4>
-          <p>Our direct partnership with multiple telecom operators, intelligent SMS gateway routing and robust infrastructure <span>ensure best-in-class delivery rates, ultra-low latencies and 24x7 support for your texts.</span> </p>
+          <p>Our direct collaboration with numerous telecom operators, sophisticated SMS gateway routing, and resilient infrastructure <span> guarantee unparalleled delivery rates, minimal latencies, and round-the-clock support for your messaging needs.</span></p>
         </div>
           
         <div className="supportContent">
           <h4>
             <img src={stack} alt="stack" />
-            <span>Fanatic </span>Customer Support
+            <span>Fanatic </span> &nbsp;Customer Support
           </h4>
-          <p>Our mobile marketing experts and technology consultants are always at hand to help startups and SMS's run the best <span> SMS campaigns. We pride ourselves on delivering superior support to all our customers, irrespective of the company size!</span></p>
+          <p>Our team of seasoned mobile marketing experts and technology consultants stands ready to assist startups and established enterprises <span>alike in orchestrating top-tier SMS campaigns. We are committed to providing unparalleled support to every client.</span></p>
         </div>
         <div className="supportContent">
           <h4>
             <img src={sharing} alt="sharing" />
-            <span>Authentic </span>Real-Time Reports
+            Real-Time Reports
           </h4>
-          <p>AARIKA SMS authentic real-time reports help you track delivery status of every SMS sent. Watch out for cheap bulk SMS service <span> providers in the market who compromise quality and provide fake delivery reports for insanely low prices. </span></p>
+          <p>AARIKA SMS offers authentic, real-time reports facilitating meticulous tracking of the delivery status for every dispatched SMS. <span> Exercise caution against opting for inexpensive bulk SMS service providers in the market.</span></p>
         </div>
       </div>
     </section>

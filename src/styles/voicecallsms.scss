@@ -30,75 +30,36 @@
 
         >p{
             text-align: left;
-            padding: 1.4rem 8rem;
+            padding: 1rem 8rem;
             font-size: 1.1rem;
-            font-weight: 700;
+            font-weight: 500;
         }
 
         >ul{
             text-align: left;
-            padding: 1.4rem 8rem;
+            padding: 1rem 10rem;
             font-size: 1.1rem;
             font-weight: 500;
-
-            >li{
-                font-style: italic;
-            }
+            list-style: inside;
+            list-style-type: disc;
         }
     }
 
     >.voiceSms{
-        margin-top: 3rem;
+        margin: 3rem 0rem;
 
         >h1{
             font-size: 2.4rem;
-            margin-bottom: 1rem;
+            margin-bottom: 2rem;
             font-weight: 500;
         }
-            
-        >button{
-            border-radius: 1.5rem;
-            margin-right: 0.6rem;
-            padding: 0.4rem;
-            margin-left: 0.6rem;
-        }
+        
+        >.normalRouteTable{
+            display: flex;
+            justify-content: space-around;
 
-        >button:hover{
-            box-shadow: 0 0 0px 0 $third,
-            inset -100px 10px 100px 20px transparent,
-            0 0 6px 0px $third,
-            inset 0 0 0px 0 transparent;
-            transition: ease-in-out;
-            transition-duration: 0.4s;
-        }
-
-        >button:active{
-            background: $third;
-
-        }
-
-        >button:focus{
-            box-shadow: 0 0 0px 0 black,
-            inset -100px 10px 100px 20px transparent,
-            0 0 12px 1px black,
-            inset 0 0 0px 0 transparent;
-        }
-
-        >.bulkSmsRoute{
-            margin: 4rem 1.5rem;
-
-            >.apiRouteTable{
-                display: flex;
-                justify-content: space-around;
-            }
-
-            >.normalRouteTable{
-                display: flex;
-                justify-content: space-around;
-
-                >.table{
-                    overflow-x: visible !important;
-                }
+            >.table{
+                overflow-x: visible !important;
             }
         }
     }

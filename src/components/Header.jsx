@@ -17,7 +17,7 @@ const Header = () => {
         <HashLink to={"/#bulkSms"}  className='menuItem'>Bulk   SMS</  HashLink>
         <Link to={"/voiceCallSms"}  className='menuItem'>Voice  Call  SMS</Link>
         <Link to={"/whatsappSms"}   className='menuItem'>Whatsapp     SMS</Link>
-        <span><HashLink to={"/  #contactUs"}    className='menuItem'>Contact Us</HashLink></span>
+        <span><HashLink to={"/#contactUs"}    className='menuItem'>Contact Us</HashLink></span>
         </div>
     </nav>
   )

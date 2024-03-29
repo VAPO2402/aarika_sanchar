@@ -18,9 +18,11 @@ const Contactus = () => {
         () => {
           console.log('SUCCESS!');
           e.target.reset();
+          alert("The message is sent!");
         },
         (error) => {
           console.log('FAILED...', error.text);
+          alert("Having trouble while sending message.");
         },
       );
   };
@@ -28,8 +30,8 @@ const Contactus = () => {
   return (
     <section id='contactUs' >
       <div className="info">
-          <h1>India's #1</h1>
-          <h2>SMS Marketing and Alerts <br /> Platform</h2>
+          <h1>India's Finest</h1>
+          <h2>SMS Marketing and Notification <br /> Platform</h2>
           <ul>
               <li>Easily send smarter bulk SMS</li>
               <li>100% delivery report</li>
@@ -44,7 +46,7 @@ const Contactus = () => {
           <form ref={form} onSubmit={sendEmail}>
             <h1>Request a Call Back <span>Now</span></h1>
             <input type="text" placeholder='Full Name*' name='userName' required />
-            <input type="number" placeholder='Mobile Number*' name='userNumber' required />
+            <input type="number" maxLength={10} minLength={10} placeholder='Mobile Number*' name='userNumber' required />
             <input type="email" placeholder='Email ID*' name='userEmail' required />
             <textarea placeholder='Message' cols="32" rows="7" name='message' required></textarea>
             <input type="submit" value="Send" className='submit' />

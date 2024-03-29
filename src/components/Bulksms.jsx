@@ -39,28 +39,28 @@ const Bulksms = () => {
                         *Tax Extra <br />
                         </Th>
                         <Th>
-                        Rs/- 2500* <br />
-                        10,000 SMS <br />
+                        Rs/- 8000* <br />
+                        50,000 SMS <br />
                         *Tax Extra <br />
                         </Th>
                         <Th>
-                        Rs/- 2500* <br />
-                        10,000 SMS <br />
+                        RS/- 15000* <br />
+                        1,00,000 SMS <br />
                         *Tax Extra <br />
                         </Th>
                         <Th>
-                        Rs/- 2500* <br />
-                        10,000 SMS <br />
+                        Rs/- 28000* <br />
+                        2,00,000 SMS <br />
                         *Tax Extra <br />
                         </Th>
                         <Th>
-                        Rs/- 2500* <br />
-                        10,000 SMS <br />
+                        Rs/- 65000* <br />
+                        5,00,000 SMS <br />
                         *Tax Extra <br />
                         </Th>
                         <Th>
-                        Rs/- 2500* <br />
-                        10,000 SMS <br />
+                        Rs/- 120000* <br />
+                        10,00,000 SMS <br />
                         *Tax Extra <br />
                         </Th>
                       </Tr>
@@ -83,12 +83,12 @@ const Bulksms = () => {
                         <Td> Life Time <br /> Validity</Td>
                       </Tr>
                       <Tr>
-                        <Td>Send SMS</Td>
-                        <Td>Send SMS</Td>
-                        <Td>Send SMS</Td>
-                        <Td>Send SMS</Td>
-                        <Td>Send SMS</Td>
-                        <Td>Send SMS</Td>
+                        <Td>Send SMS Multi <br /> Language Support</Td>
+                        <Td>Send SMS Multi <br /> Language Support</Td>
+                        <Td>Send SMS Multi <br /> Language Support</Td>
+                        <Td>Send SMS Multi <br /> Language Support</Td>
+                        <Td>Send SMS Multi <br /> Language Support</Td>
+                        <Td>Send SMS Multi <br /> Language Support</Td>
                       </Tr>
                       <Tr>
                         <Td>Numerical <br />SENDER ID</Td>
@@ -100,13 +100,12 @@ const Bulksms = () => {
                         
                       </Tr>
                       <Tr>
-                        <Td>100% Delivery</Td>
-                        <Td>100% Delivery</Td>
-                        <Td>100% Delivery</Td>
-                        <Td>100% Delivery</Td>
-                        <Td>100% Delivery</Td>
-                        <Td>100% Delivery</Td>
-                        
+                        <Td>100% Delivery <br /> with Instant delivery <br /> report</Td>
+                        <Td>100% Delivery <br /> with Instant delivery <br /> report</Td>
+                        <Td>100% Delivery <br /> with Instant delivery <br /> report</Td>
+                        <Td>100% Delivery <br /> with Instant delivery <br /> report</Td>
+                        <Td>100% Delivery <br /> with Instant delivery <br /> report</Td>
+                        <Td>100% Delivery <br /> with Instant delivery <br /> report</Td>
                       </Tr>
                       <Tr>
                         <Td>With Api</Td>
@@ -137,45 +136,45 @@ const Bulksms = () => {
                     <Thead>
                       <Tr>
                         <Th>
-                        Rs/- 2500* <br />
+                        Rs/- 2000* <br />
                         10,000 SMS <br />
                         *Tax Extra <br />
                         </Th>
                         <Th>
-                        Rs/- 2500* <br />
-                        10,000 SMS <br />
+                        Rs/- 5000* <br />
+                        50,000 SMS <br />
                         *Tax Extra <br />
                         </Th>
                         <Th>
-                        Rs/- 2500* <br />
-                        10,000 SMS <br />
+                        Rs/- 8000* <br />
+                        1,00,000 SMS <br />
                         *Tax Extra <br />
                         </Th>
                         <Th>
-                        Rs/- 2500* <br />
-                        10,000 SMS <br />
+                        Rs/- 15000* <br />
+                        2,00,000 SMS <br />
                         *Tax Extra <br />
                         </Th>
                         <Th>
-                        Rs/- 2500* <br />
-                        10,000 SMS <br />
+                        Rs/- 25000* <br />
+                        5,00,000 SMS <br />
                         *Tax Extra <br />
                         </Th>
                         <Th>
-                        Rs/- 2500* <br />
-                        10,000 SMS <br />
+                        Rs/- 40000* <br />
+                        10,00,000 SMS <br />
                         *Tax Extra <br />
                         </Th>
                       </Tr>
                     </Thead>
                     <Tbody>
                       <Tr>
-                        <Td>0.25 Per <br /> Bulk SMS</Td>
-                        <Td>0.25 Per <br /> Bulk SMS</Td>
-                        <Td>0.25 Per <br /> Bulk SMS</Td>
-                        <Td>0.25 Per <br /> Bulk SMS</Td>
-                        <Td>0.25 Per <br /> Bulk SMS</Td>
-                        <Td>0.25 Per <br /> Bulk SMS</Td>
+                        <Td>0.20 Per <br /> Bulk SMS</Td>
+                        <Td>0.10 Per <br /> Bulk SMS</Td>
+                        <Td>0.08 Per <br /> Bulk SMS</Td>
+                        <Td>0.075 Per <br /> Bulk SMS</Td>
+                        <Td>0.05 Per <br /> Bulk SMS</Td>
+                        <Td>0.04 Per <br /> Bulk SMS</Td>
                       </Tr>
                       <Tr>
                         <Td> Life Time <br /> Validity</Td>
@@ -186,12 +185,12 @@ const Bulksms = () => {
                         <Td> Life Time <br /> Validity</Td>
                       </Tr>
                       <Tr>
-                        <Td>Send SMS</Td>
-                        <Td>Send SMS</Td>
-                        <Td>Send SMS</Td>
-                        <Td>Send SMS</Td>
-                        <Td>Send SMS</Td>
-                        <Td>Send SMS</Td>
+                        <Td>Send SMS Multi <br /> Language Support</Td>
+                        <Td>Send SMS Multi <br /> Language Support</Td>
+                        <Td>Send SMS Multi <br /> Language Support</Td>
+                        <Td>Send SMS Multi <br /> Language Support</Td>
+                        <Td>Send SMS Multi <br /> Language Support</Td>
+                        <Td>Send SMS Multi <br /> Language Support</Td>
                       </Tr>
                       <Tr>
                         <Td>Numerical <br />SENDER ID</Td>
@@ -203,22 +202,20 @@ const Bulksms = () => {
                         
                       </Tr>
                       <Tr>
-                        <Td>100% Delivery</Td>
-                        <Td>100% Delivery</Td>
-                        <Td>100% Delivery</Td>
-                        <Td>100% Delivery</Td>
-                        <Td>100% Delivery</Td>
-                        <Td>100% Delivery</Td>
-                        
+                        <Td>100% Delivery <br /> with Instant delivery <br /> report</Td>
+                        <Td>100% Delivery <br /> with Instant delivery <br /> report</Td>
+                        <Td>100% Delivery <br /> with Instant delivery <br /> report</Td>
+                        <Td>100% Delivery <br /> with Instant delivery <br /> report</Td>
+                        <Td>100% Delivery <br /> with Instant delivery <br /> report</Td>
+                        <Td>100% Delivery <br /> with Instant delivery <br /> report</Td>
                       </Tr>
                       <Tr>
-                        <Td>With Api</Td>
-                        <Td>With Api</Td>
-                        <Td>With Api</Td>
-                        <Td>With Api</Td>
-                        <Td>With Api</Td>
-                        <Td>With Api</Td>
-                        
+                        <Td>** Api With Extra <br /> cost</Td>
+                        <Td>** Api With Extra <br /> cost</Td>
+                        <Td>** Api With Extra <br /> cost</Td>
+                        <Td>** Api With Extra <br /> cost</Td>
+                        <Td>** Api With Extra <br /> cost</Td>
+                        <Td>** Api With Extra <br /> cost</Td>
                       </Tr>
                     </Tbody>
                     <Tfoot>
@@ -243,108 +240,107 @@ const Bulksms = () => {
         <div className="bulkSmsRoute">
           { toggled === 'apiTransactional' ? (
             <div className="apiRouteTable">
-              <TableContainer className='table'>
-                  <Table variant='simple'>
-                    <Thead>
-                      <Tr>
-                        <Th>
-                        Rs/- 2500* <br />
-                        10,000 SMS <br />
-                        *Tax Extra <br />
-                        </Th>
-                        <Th>
-                        Rs/- 2500* <br />
-                        10,000 SMS <br />
-                        *Tax Extra <br />
-                        </Th>
-                        <Th>
-                        Rs/- 2500* <br />
-                        10,000 SMS <br />
-                        *Tax Extra <br />
-                        </Th>
-                        <Th>
-                        Rs/- 2500* <br />
-                        10,000 SMS <br />
-                        *Tax Extra <br />
-                        </Th>
-                        <Th>
-                        Rs/- 2500* <br />
-                        10,000 SMS <br />
-                        *Tax Extra <br />
-                        </Th>
-                        <Th>
-                        Rs/- 2500* <br />
-                        10,000 SMS <br />
-                        *Tax Extra <br />
-                        </Th>
-                      </Tr>
-                    </Thead>
-                    <Tbody>
-                      <Tr>
-                        <Td>0.25 Per <br /> Bulk SMS</Td>
-                        <Td>0.25 Per <br /> Bulk SMS</Td>
-                        <Td>0.25 Per <br /> Bulk SMS</Td>
-                        <Td>0.25 Per <br /> Bulk SMS</Td>
-                        <Td>0.25 Per <br /> Bulk SMS</Td>
-                        <Td>0.25 Per <br /> Bulk SMS</Td>
-                      </Tr>
-                      <Tr>
-                        <Td> Life Time <br /> Validity</Td>
-                        <Td> Life Time <br /> Validity</Td>
-                        <Td> Life Time <br /> Validity</Td>
-                        <Td> Life Time <br /> Validity</Td>
-                        <Td> Life Time <br /> Validity</Td>
-                        <Td> Life Time <br /> Validity</Td>
-                      </Tr>
-                      <Tr>
-                        <Td>Send SMS</Td>
-                        <Td>Send SMS</Td>
-                        <Td>Send SMS</Td>
-                        <Td>Send SMS</Td>
-                        <Td>Send SMS</Td>
-                        <Td>Send SMS</Td>
-                      </Tr>
-                      <Tr>
-                        <Td>Numerical <br />SENDER ID</Td>
-                        <Td>Numerical <br />SENDER ID</Td>
-                        <Td>Numerical <br />SENDER ID</Td>
-                        <Td>Numerical <br />SENDER ID</Td>
-                        <Td>Numerical <br />SENDER ID</Td>
-                        <Td>Numerical <br />SENDER ID</Td>
-                        
-                      </Tr>
-                      <Tr>
-                        <Td>100% Delivery</Td>
-                        <Td>100% Delivery</Td>
-                        <Td>100% Delivery</Td>
-                        <Td>100% Delivery</Td>
-                        <Td>100% Delivery</Td>
-                        <Td>100% Delivery</Td>
-                        
-                      </Tr>
-                      <Tr>
-                        <Td>With Api</Td>
-                        <Td>With Api</Td>
-                        <Td>With Api</Td>
-                        <Td>With Api</Td>
-                        <Td>With Api</Td>
-                        <Td>With Api</Td>
-                        
-                      </Tr>
-                    </Tbody>
-                    <Tfoot>
-                      <Tr>
-                        <Th><HashLink to={"/#contactUs"}>Purchase</HashLink></Th>
-                        <Th><HashLink to={"/#contactUs"}>Purchase</HashLink></Th>
-                        <Th><HashLink to={"/#contactUs"}>Purchase</HashLink></Th>
-                        <Th><HashLink to={"/#contactUs"}>Purchase</HashLink></Th>
-                        <Th><HashLink to={"/#contactUs"}>Purchase</HashLink></Th>
-                        <Th><HashLink to={"/#contactUs"}>Purchase</HashLink></Th>
-                      </Tr>
-                    </Tfoot>
-                  </Table>
-              </TableContainer>
-            </div>
+            <TableContainer className='table'>
+              <Table variant='simple'>
+                <Thead>
+                  <Tr>
+                    <Th>
+                    Rs/- 2500* <br />
+                    10,000 SMS <br />
+                    *Tax Extra <br />
+                    </Th>
+                    <Th>
+                    Rs/- 8000* <br />
+                    50,000 SMS <br />
+                    *Tax Extra <br />
+                    </Th>
+                    <Th>
+                    RS/- 15000* <br />
+                    1,00,000 SMS <br />
+                    *Tax Extra <br />
+                    </Th>
+                    <Th>
+                    Rs/- 28000* <br />
+                    2,00,000 SMS <br />
+                    *Tax Extra <br />
+                    </Th>
+                    <Th>
+                    Rs/- 65000* <br />
+                    5,00,000 SMS <br />
+                    *Tax Extra <br />
+                    </Th>
+                    <Th>
+                    Rs/- 120000* <br />
+                    10,00,000 SMS <br />
+                    *Tax Extra <br />
+                    </Th>
+                  </Tr>
+                </Thead>
+                <Tbody>
+                  <Tr>
+                    <Td>0.25 Per <br /> Bulk SMS</Td>
+                    <Td>0.25 Per <br /> Bulk SMS</Td>
+                    <Td>0.25 Per <br /> Bulk SMS</Td>
+                    <Td>0.25 Per <br /> Bulk SMS</Td>
+                    <Td>0.25 Per <br /> Bulk SMS</Td>
+                    <Td>0.25 Per <br /> Bulk SMS</Td>
+                  </Tr>
+                  <Tr>
+                    <Td> Life Time <br /> Validity</Td>
+                    <Td> Life Time <br /> Validity</Td>
+                    <Td> Life Time <br /> Validity</Td>
+                    <Td> Life Time <br /> Validity</Td>
+                    <Td> Life Time <br /> Validity</Td>
+                    <Td> Life Time <br /> Validity</Td>
+                  </Tr>
+                  <Tr>
+                    <Td>Send SMS Multi <br /> Language Support</Td>
+                    <Td>Send SMS Multi <br /> Language Support</Td>
+                    <Td>Send SMS Multi <br /> Language Support</Td>
+                    <Td>Send SMS Multi <br /> Language Support</Td>
+                    <Td>Send SMS Multi <br /> Language Support</Td>
+                    <Td>Send SMS Multi <br /> Language Support</Td>
+                  </Tr>
+                  <Tr>
+                    <Td>Numerical <br />SENDER ID</Td>
+                    <Td>Numerical <br />SENDER ID</Td>
+                    <Td>Numerical <br />SENDER ID</Td>
+                    <Td>Numerical <br />SENDER ID</Td>
+                    <Td>Numerical <br />SENDER ID</Td>
+                    <Td>Numerical <br />SENDER ID</Td>
+                    
+                  </Tr>
+                  <Tr>
+                    <Td>100% Delivery <br /> with Instant delivery <br /> report</Td>
+                    <Td>100% Delivery <br /> with Instant delivery <br /> report</Td>
+                    <Td>100% Delivery <br /> with Instant delivery <br /> report</Td>
+                    <Td>100% Delivery <br /> with Instant delivery <br /> report</Td>
+                    <Td>100% Delivery <br /> with Instant delivery <br /> report</Td>
+                    <Td>100% Delivery <br /> with Instant delivery <br /> report</Td>
+                  </Tr>
+                  <Tr>
+                    <Td>With Api</Td>
+                    <Td>With Api</Td>
+                    <Td>With Api</Td>
+                    <Td>With Api</Td>
+                    <Td>With Api</Td>
+                    <Td>With Api</Td>
+                    
+                  </Tr>
+                </Tbody>
+                <Tfoot>
+                  <Tr>
+                    <Th><HashLink to={"/#contactUs"}>Purchase</HashLink></Th>
+                    <Th><HashLink to={"/#contactUs"}>Purchase</HashLink></Th>
+                    <Th><HashLink to={"/#contactUs"}>Purchase</HashLink></Th>
+                    <Th><HashLink to={"/#contactUs"}>Purchase</HashLink></Th>
+                    <Th><HashLink to={"/#contactUs"}>Purchase</HashLink></Th>
+                    <Th><HashLink to={"/#contactUs"}>Purchase</HashLink></Th>
+                  </Tr>
+                </Tfoot>
+              </Table>
+            </TableContainer>
+          </div>
             ) : <div className="normalRouteTable">
             <TableContainer className='table'>
               <Table variant='simple'>
@@ -356,40 +352,40 @@ const Bulksms = () => {
                         *Tax Extra <br />
                         </Th>
                         <Th>
-                        Rs/- 2500* <br />
-                        10,000 SMS <br />
+                        Rs/- 6000* <br />
+                        50,000 SMS <br />
                         *Tax Extra <br />
                         </Th>
                         <Th>
-                        Rs/- 2500* <br />
-                        10,000 SMS <br />
+                        Rs/- 9000* <br />
+                        1,00,000 SMS <br />
                         *Tax Extra <br />
                         </Th>
                         <Th>
-                        Rs/- 2500* <br />
-                        10,000 SMS <br />
+                        Rs/- 16,000* <br />
+                        2,00,000 SMS <br />
                         *Tax Extra <br />
                         </Th>
                         <Th>
-                        Rs/- 2500* <br />
-                        10,000 SMS <br />
+                        Rs/- 30,000* <br />
+                        5,00,000 SMS <br />
                         *Tax Extra <br />
                         </Th>
                         <Th>
-                        Rs/- 2500* <br />
-                        10,000 SMS <br />
+                        Rs/- 50000* <br />
+                        10,00,000 SMS <br />
                         *Tax Extra <br />
                         </Th>
                       </Tr>
                     </Thead>
                     <Tbody>
                       <Tr>
-                        <Td>0.25 Per <br /> Bulk SMS</Td>
-                        <Td>0.25 Per <br /> Bulk SMS</Td>
-                        <Td>0.25 Per <br /> Bulk SMS</Td>
-                        <Td>0.25 Per <br /> Bulk SMS</Td>
-                        <Td>0.25 Per <br /> Bulk SMS</Td>
-                        <Td>0.25 Per <br /> Bulk SMS</Td>
+                        <Td>0.21 Per <br /> Bulk SMS</Td>
+                        <Td>0.12 Per <br /> Bulk SMS</Td>
+                        <Td>0.09 Per <br /> Bulk SMS</Td>
+                        <Td>0.08 Per <br /> Bulk SMS</Td>
+                        <Td>0.06 Per <br /> Bulk SMS</Td>
+                        <Td>0.05 Per <br /> Bulk SMS</Td>
                       </Tr>
                       <Tr>
                         <Td> Life Time <br /> Validity</Td>
@@ -400,12 +396,12 @@ const Bulksms = () => {
                         <Td> Life Time <br /> Validity</Td>
                       </Tr>
                       <Tr>
-                        <Td>Send SMS</Td>
-                        <Td>Send SMS</Td>
-                        <Td>Send SMS</Td>
-                        <Td>Send SMS</Td>
-                        <Td>Send SMS</Td>
-                        <Td>Send SMS</Td>
+                        <Td>Send SMS Multi <br /> Language Support</Td>
+                        <Td>Send SMS Multi <br /> Language Support</Td>
+                        <Td>Send SMS Multi <br /> Language Support</Td>
+                        <Td>Send SMS Multi <br /> Language Support</Td>
+                        <Td>Send SMS Multi <br /> Language Support</Td>
+                        <Td>Send SMS Multi <br /> Language Support</Td>
                       </Tr>
                       <Tr>
                         <Td>Numerical <br />SENDER ID</Td>
@@ -417,22 +413,20 @@ const Bulksms = () => {
                         
                       </Tr>
                       <Tr>
-                        <Td>100% Delivery</Td>
-                        <Td>100% Delivery</Td>
-                        <Td>100% Delivery</Td>
-                        <Td>100% Delivery</Td>
-                        <Td>100% Delivery</Td>
-                        <Td>100% Delivery</Td>
-                        
+                        <Td>100% Delivery <br /> with Instant delivery <br /> report</Td>
+                        <Td>100% Delivery <br /> with Instant delivery <br /> report</Td>
+                        <Td>100% Delivery <br /> with Instant delivery <br /> report</Td>
+                        <Td>100% Delivery <br /> with Instant delivery <br /> report</Td>
+                        <Td>100% Delivery <br /> with Instant delivery <br /> report</Td>
+                        <Td>100% Delivery <br /> with Instant delivery <br /> report</Td>
                       </Tr>
                       <Tr>
-                        <Td>With Api</Td>
-                        <Td>With Api</Td>
-                        <Td>With Api</Td>
-                        <Td>With Api</Td>
-                        <Td>With Api</Td>
-                        <Td>With Api</Td>
-                        
+                        <Td>** Api With Extra <br /> cost</Td>
+                        <Td>** Api With Extra <br /> cost</Td>
+                        <Td>** Api With Extra <br /> cost</Td>
+                        <Td>** Api With Extra <br /> cost</Td>
+                        <Td>** Api With Extra <br /> cost</Td>
+                        <Td>** Api With Extra <br /> cost</Td>
                       </Tr>
                     </Tbody>
                     <Tfoot>

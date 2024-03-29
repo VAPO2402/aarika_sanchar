@@ -7,23 +7,25 @@ const Footer = () => {
 
     const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs
-      .sendForm('service_sznr43k', 'template_8iidebq', form.current, {
-        publicKey: 'MkMcdsR0dQJY-SeYd',
-      })
-      .then(
-        () => {
-          console.log('SUCCESS!');
-          e.target.reset();
-        },
-        (error) => {
-          console.log('FAILED...', error.text);
-        },
-      );
-  };
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs
+        .sendForm('service_lzwr1wc', 'template_jclrct1', form.current, {
+          publicKey: 'Nlt_ayHQm3wLz3ggl',
+        })
+        .then(
+          () => {
+            console.log('SUCCESS!');
+            e.target.reset();
+            alert("The message is sent!");
+          },
+          (error) => {
+            console.log('FAILED...', error.text);
+            alert("Having trouble while sending message.");
+          },
+        );
+    };
 
   return (
     <section className="footer">

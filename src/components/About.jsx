@@ -23,7 +23,7 @@ const About = () => {
                     </div>
                     
                     <span>Bulk SMS Redefined</span>
-                    <p>Reach out to millions within seconds. Easily schedule and send personalized texts and regional language messages.</p>
+                    <p>Engage with millions instantaneously. Easily schedule and dispatch personalized texts and regional language messages.</p>
                 </div>
                 <div className="cardInfo">
                     <div className="image">
@@ -31,7 +31,7 @@ const About = () => {
                     </div>
                     
                     <span>Track Campaign Metrics</span>
-                    <p>Take the guesswork out of your SMS marketing campaigns! Get granular click reports for all links sent via text.</p>
+                    <p>Eliminate uncertainty from your SMS marketing endeavors! Obtain detailed click reports for all text-sent links.</p>
                 </div>
                 <div className="cardInfo">
                     <div className="image">
@@ -39,7 +39,7 @@ const About = () => {
                     </div>
                     
                     <span>Receive SMS</span>
-                    <p>Allow your customers to instantly reach out and get information by just texting into your short/long codes</p>
+                    <p>Empower your clientele to swiftly access information by simply texting short/long codes.</p>
                 </div>
                 <div className="cardInfo">
                     <div className="image">
@@ -47,7 +47,7 @@ const About = () => {
                     </div>
                     
                     <span>Send via App, Excel or Email</span>
-                    <p>Send SMS the way you like - via web interface, APIs, Microsoft Excel, email gateway</p>
+                    <p>Customize SMS transmission via web interface, APIs, Microsoft Excel, or email gateway.</p>
                 </div>
             </div>
             <div className="cardsBelow">
@@ -57,7 +57,7 @@ const About = () => {
                     </div>
                     
                     <span>Enterprise Friendly</span>
-                    <p>Get started with multi-user accounts, role management, locked templates, audit trail, bespoke services & more</p>
+                    <p>Commence with multi-user accounts, role management, locked templates, audit trail, bespoke services & more.</p>
                 </div>
                 <div className="cardInfo">
                     <div className="image">
@@ -65,7 +65,7 @@ const About = () => {
                     </div>
                     
                     <span>Mobile Solutions</span>
-                    <p>Create and send mobile tickets, discount vouchers, surveys and forms directly to your customers’ phones</p>
+                    <p>Generate and dispatch mobile tickets, discount vouchers, surveys, and forms directly to customers' devices.</p>
                 </div>
                 <div className="cardInfo">
                     <div className="image">
@@ -73,7 +73,7 @@ const About = () => {
                     </div>
                     
                     <span>Integrate SMS API's</span>
-                    <p>Our simple APIs allow software and web developers to integrate any application with AARIKA SMS</p>
+                    <p>Simplify integration for software and web developers through our straightforward APIs for AARIKA SMS.</p>
                 </div>
             </div>
         </div>

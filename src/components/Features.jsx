@@ -15,7 +15,7 @@ const Features = () => {
                     Send SMS text
                 </span>
                 </h1>
-                <p>Your PWA SMS Web to SMS account enables you to log in from any internet enabled computer and communicate instantly via AARIKA SMS text messaging.</p>
+                <p>Your AARIKA SMS Web to SMS account facilitates access from any internet-enabled device for instantaneous communication via AARIKA SMS text messaging.</p>
             </div>
             <div className="featuresInfo">
                 <h1><img src={lock} alt="lock" />
@@ -23,7 +23,7 @@ const Features = () => {
                     We use premium
                 </span>
                 </h1>
-                <p>We give you 99% of PWA sms delivery guaranteed while using our premium PWA SMS gateway.   Additional account features allow you to send messages.</p>
+                <p>We guarantee 99% AARIKA SMS delivery reliability through our premium PWA SMS gateway. Enhanced account functionalities enable message transmission.</p>
             </div>
             <div className="featuresInfo">
                 <h1><img src={lock} alt="lock" />
@@ -31,7 +31,7 @@ const Features = () => {
                     We provide Hindi SMS
                 </span>
                 </h1>
-                <p>Local language SMS will increase your ROI more than 50% instead of English SMS. Therefore, brands using Unicode SMS to advertise the product in different cities.</p>
+                <p>Utilizing local language SMS yields over a 50% increase in ROI compared to English SMS, especially beneficial for brands employing Unicode SMS across diverse locales.</p>
             </div>
         </div>
         <div className="featuresBelow">
@@ -41,7 +41,7 @@ const Features = () => {
                     Desktop software
                 </span>
                 </h1>
-                <p>The AARIKA smsplans Text Messenger makes two-way SMSing to a group or individuals even easier. This feature rich software is quick to install and easy to use. The Mobi-gram sdsds</p>
+                <p>The AARIKA Text Messenger streamlines two-way SMS communication with groups or individuals, boasting feature-rich software that is swift to install and user-friendly.</p>
             </div>
             <div className="featuresInfo">
                 <h1><img src={lock} alt="lock" />
@@ -49,7 +49,7 @@ const Features = () => {
                     We are a reliable SMS
                 </span>
                 </h1>
-                <p>You have to spend huge marketing budget to promote business in this digital marketing world to promote a brand. Therefore, we provide you the best price for PWA SMS service without</p>
+                <p>The AARIKA Text Messenger streamlines two-way SMS communication with groups or individuals, boasting feature-rich software that is swift to install and user-friendly.</p>
             </div>
             <div className="featuresInfo">
                 <h1><img src={lock} alt="lock" />
@@ -57,7 +57,7 @@ const Features = () => {
                     More than 35,000
                 </span>
                 </h1>
-                <p>Brands using PWA SMS service as their first choice to promote their products & services to reach the target audience in minutes.compose rich media content to create dynamic client sdds</p>
+                <p>Brands prioritize AARIKA SMS service as their primary tool for swiftly reaching target audiences, leveraging dynamic client engagement through rich media content creation.</p>
             </div>
         </div>
     </section>
