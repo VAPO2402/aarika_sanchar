@@ -123,15 +123,6 @@ const Voicecallsms = () => {
                         <Td>Send SMS Multi <br /> Language Support</Td>
                       </Tr>
                       <Tr>
-                        <Td>Numerical <br />SENDER ID</Td>
-                        <Td>Numerical <br />SENDER ID</Td>
-                        <Td>Numerical <br />SENDER ID</Td>
-                        <Td>Numerical <br />SENDER ID</Td>
-                        <Td>Numerical <br />SENDER ID</Td>
-                        <Td>Numerical <br />SENDER ID</Td>
-                        
-                      </Tr>
-                      <Tr>
                         <Td>100% Delivery <br /> with Instant delivery <br /> report</Td>
                         <Td>100% Delivery <br /> with Instant delivery <br /> report</Td>
                         <Td>100% Delivery <br /> with Instant delivery <br /> report</Td>

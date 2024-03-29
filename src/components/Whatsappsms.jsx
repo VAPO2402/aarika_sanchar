@@ -101,12 +101,12 @@ const Whatsappsms = () => {
                         <Td>Send SMS Multi <br /> Language Support</Td>
                       </Tr>
                       <Tr>
-                        <Td>Numerical <br />SENDER ID</Td>
-                        <Td>Numerical <br />SENDER ID</Td>
-                        <Td>Numerical <br />SENDER ID</Td>
-                        <Td>Numerical <br />SENDER ID</Td>
-                        <Td>Numerical <br />SENDER ID</Td>
-                        <Td>Numerical <br />SENDER ID</Td>
+                        <Td>Virtual Numerical <br />SENDER ID</Td>
+                        <Td>Virtual Numerical <br />SENDER ID</Td>
+                        <Td>Virtual Numerical <br />SENDER ID</Td>
+                        <Td>Virtual Numerical <br />SENDER ID</Td>
+                        <Td>Virtual Numerical <br />SENDER ID</Td>
+                        <Td>Virtual Numerical <br />SENDER ID</Td>
                         
                       </Tr>
                       <Tr>
