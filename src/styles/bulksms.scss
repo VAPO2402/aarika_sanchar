@@ -20,7 +20,8 @@
     >.promotionalSms{
 
         >h1{
-            font-size: 2.4rem;
+            font-size: 2rem;
+            font-weight: 700;
             margin-bottom: 1rem;
         }
             
@@ -29,12 +30,38 @@
             margin-right: 0.6rem;
             padding: 0.4rem;
             margin-left: 0.6rem;
-        }
-
-        >button:hover{
             box-shadow: 0 0 0px 0 $third,
             inset -100px 10px 100px 20px transparent,
             0 0 6px 0px $third,
+            inset 0 0 0px 0 transparent;
+        }
+
+        >#normalPromotional{
+            color: #A155B9;
+            font-weight: 700;
+        }
+        
+        >#normalPromotional:focus{
+            background: #b37ec4;
+            color: white;
+            transition: 0.5s ease-in-out;
+        }
+
+        >#apiPromotional{
+            color: #F765A3;
+            font-weight: 700;
+        }
+
+        >#apiPromotional:focus{
+            background: #F765A3;
+            color: white;
+            transition: 0.5s ease-in-out;
+        }
+
+        >button:hover{
+            box-shadow: 0 0 0px 0 black,
+            inset -100px 10px 100px 20px transparent,
+            0 0 12px 1px black,
             inset 0 0 0px 0 transparent;
             transition: ease-in-out;
             transition-duration: 0.4s;
@@ -42,14 +69,6 @@
 
         >button:active{
             background: $third;
-
-        }
-
-        >button:focus{
-            box-shadow: 0 0 0px 0 black,
-            inset -100px 10px 100px 20px transparent,
-            0 0 12px 1px black,
-            inset 0 0 0px 0 transparent;
         }
 
         >.bulkSmsRoute{
@@ -70,8 +89,9 @@
     >.transactionalSms{
 
         >h1{
-            font-size: 2.4rem;
+            font-size: 2rem;
             margin-bottom: 1rem;
+            font-weight: 700;
         }
             
         >button{
@@ -79,6 +99,28 @@
             margin-right: 0.6rem;
             padding: 0.4rem;
             margin-left: 0.6rem;
+        }
+
+        >#normalTransactional{
+            color: #A155B9;
+            font-weight: 700;
+        }
+        
+        >#normalTransactional:focus{
+            background: #b37ec4;
+            color: white;
+            transition: 0.5s ease-in-out;
+        }
+
+        >#apiTransactional{
+            color: #F765A3;
+            font-weight: 700;
+        }
+
+        >#apiTransactional:focus{
+            background: #F765A3;
+            color: white;
+            transition: 0.5s ease-in-out;
         }
 
         >button:hover{

@@ -23,7 +23,7 @@ const Bulksms = () => {
       <h1>Try, Our SMS Platform To Promote Your Business & Guaranteed Results.</h1>
       <p>More than 35,000 happy customers are loving with sms all over world</p>
       <div className="promotionalSms">
-        <h1>Promotional Sms</h1>
+        <h1>Promotional SMS</h1>
         <button id="normalPromotional" onClick={() => setToggled('normalPromotional')}>NORMAL ROUTE</button>/
         <button id="apiPromotional" onClick={() => setToggled('apiPromotional')}>API ROUTE</button>
         <div className="bulkSmsRoute">
@@ -234,7 +234,7 @@ const Bulksms = () => {
         </div>
       </div>
       <div className="transactionalSms">
-      <h1>Transactional Sms</h1>
+      <h1>Transactional SMS</h1>
         <button id="normalTransactional" onClick={() => setToggled('normalTransactiona;')}>NORMAL ROUTE</button>/
         <button id="apiTransactional" onClick={() => setToggled('apiTransactional')}>API ROUTE</button>
         <div className="bulkSmsRoute">

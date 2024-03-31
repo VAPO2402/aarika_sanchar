@@ -59,7 +59,7 @@ const Voicecallsms = () => {
       </div>
 
       <div className="voiceSms">
-        <h1>VoiceCall Sms</h1>
+        <h1>VoiceCall SMS</h1>
         <div className="normalRouteTable">
               <TableContainer className='table'>
                 <Table variant='simple'>

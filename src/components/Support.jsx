@@ -14,7 +14,7 @@ const Support = () => {
         <div className="supportContent">
           <h4>
             <img src={lock} alt="lock" />
-            Unmatched Delivery<span>Rates & Speed</span>
+            Unmatched Delivery
           </h4>
           <p>Our direct collaboration with numerous telecom operators, sophisticated SMS gateway routing, and resilient infrastructure <span> guarantee unparalleled delivery rates, minimal latencies, and round-the-clock support for your messaging needs.</span></p>
         </div>
@@ -22,7 +22,7 @@ const Support = () => {
         <div className="supportContent">
           <h4>
             <img src={stack} alt="stack" />
-            <span>Fanatic </span> &nbsp;Customer Support
+            Customer Support
           </h4>
           <p>Our team of seasoned mobile marketing experts and technology consultants stands ready to assist startups and established enterprises <span>alike in orchestrating top-tier SMS campaigns. We are committed to providing unparalleled support to every client.</span></p>
         </div>

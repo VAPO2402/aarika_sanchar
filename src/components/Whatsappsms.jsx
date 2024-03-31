@@ -37,7 +37,7 @@ const Whatsappsms = () => {
       </div>
 
       <div className="whatsAppSms">
-        <h1>WhatsApp Sms</h1>
+        <h1>WhatsApp SMS</h1>
         <div className="bulkSmsRoute">
             <TableContainer className='table'>
                 <Table variant='simple'>
