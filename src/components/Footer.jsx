@@ -37,7 +37,7 @@ const Footer = () => {
             <div className="contactDetails">
                 <h1>CONTACT US</h1>
                 <p>Email: sales@aarikasvs.com<br />
-                    Mobile: +91 75240 11053</p>
+                    Mobile: +91 75240 11053 <br />  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; +91 84470 08855</p>
             </div>
             <div className="reachOut">
                 <h1>CONTACT US</h1>

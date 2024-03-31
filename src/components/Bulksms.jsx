@@ -244,7 +244,7 @@ const Bulksms = () => {
               <Table variant='simple'>
                 <Thead>
                   <Tr>
-                    <Th>
+                    <Th >
                     Rs/- 2500* <br />
                     10,000 SMS <br />
                     *Tax Extra <br />
